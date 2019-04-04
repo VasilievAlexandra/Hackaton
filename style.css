@@ -1,0 +1,92 @@
+linear-gradient(  [ <angle> | to <side-or-corner> ,]? <color-stop> [, <color-stop>]+ )
+                  \---------------------------------/ \----------------------------/
+                    Definition of the gradient line        List of color stops  
+
+where <side-or-corner> = [left | right] || [top | bottom]
+  and <color-stop>     = <color> [ <percentage> | <length> ]?
+
+body{
+	height: 100vh;
+
+}
+.login{
+	background: black;
+	color: white
+}
+.ingo{
+	
+	font-size: 20px;
+	font-family: 'Arimo', sans-serif;
+}
+.center{
+	text-align: center
+}
+.page{
+    background: #00040e;
+    height: 8vh;
+    color: #e8ebea;
+    width: 100%;
+    display: flex;
+	 font-family: 'Arimo', sans-serif;
+    padding-top: 7px
+}
+
+.menu{
+	background: #223E87;
+	position: absolute;
+	left: -100vh;
+    display: none;
+   transition: 2s
+}
+.goter{
+    background-image: linear-gradient(90deg, #00040e, #223E87);
+    height: 25vh;
+    width: 110%;
+    padding-top: 40px;
+    text-align: center;
+}
+a{
+	color: ;
+	text-decoration: none;
+	 color: #e8ebea;
+	 font-size: 21px;
+	 font-family: 'Arimo', sans-serif;
+
+}
+.yes {
+	padding-top: 25vh;
+}
+.goter:hover{
+   background-image: linear-gradient(90deg, #5389a6, #223E87);
+   transition: 2s
+
+}
+.aero{
+   background: #5389a6;
+   height: 100vh;
+
+}
+.rock{
+	margin-left: 15vh
+}
+.cosmo{
+   background:  #223E87;
+   height: 100vh;
+   box-sizing: border-box;
+}
+.energy{
+   background: #4F3D87;
+   height: 100vh;
+
+}
+.neuro{
+   background: #a6dcee;
+      height: 100vh;
+}
+.maine{
+	
+}
+.icon{
+	margin-left: 10px;
+	margin-right: 70vh
+}
